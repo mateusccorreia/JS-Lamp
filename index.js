@@ -20,3 +20,7 @@ function ligarDesligar () {
 }
 
 btnLamp.addEventListener('click', ligarDesligar)
+
+//funcao passando a seta do mouse e double click
+imgLamp.addEventListener('mouseover', ligarLamp);
+imgLamp.addEventListener('mouseleave', desligarLamp)
